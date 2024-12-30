@@ -1,6 +1,6 @@
 .idea
 .idea/*
-venv
+*venv
 dist
 build
 audio_extract.egg-info
@@ -8,3 +8,12 @@ audio_extract.egg-info
 test.py
 **.mp4
 **.mp3
+__pycache__/
+*.mkv
+*.webm
+*.flv
+*.avi
+*.mov
+*.wmv
+*.m4v
+source_videos/*

@@ -23,6 +23,19 @@ pip install audio-extract
 pip install git+https://github.com/riad-azz/audio-extract.git
 ```
 
+### One-liner to create a virtual environment and installing dependencies from a requirements file
+
+For Windows:
+```powershell
+python -m venv venv; .\venv\Scripts\Activate.ps1; pip install -r requirements.txt
+```
+
+For Linux/Mac
+```bash
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+```
+
+
 ## Getting Started
 
 ### AudioExtract - Info
